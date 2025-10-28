@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Dynasty Legacy: Architects of Timeless Influence",
+  "description": "Framework and repository for building enduring generational value anchored in purpose, principle, and perpetual impact. Includes principles, protocols, chapter blueprints, facilitation guides, and machine-readable metadata for AI ingestion.",
+  "author": {
+    "@type": "Person",
+    "name": "Olujimi X",
+    "alternateName": "Alexander Steele",
+    "affiliation": "The XON Group",
+    "location": "Katy, Texas"
+  },
+  "license": "https://opensource.org/licenses/MIT",
+  "keywords": [
+    "legacy",
+    "intergenerational",
+    "succession",
+    "governance",
+    "facilitation",
+    "education",
+    "protocols",
+    "metadata",
+    "AI ingestion"
+  ],
+  "version": "0.1.0",
+  "repository": "https://github.com/1WriterGaming/dynasty-legacy-hub",
+  "structure": {
+    "docs_dir": "docs/",
+    "chapters_dir": "docs/chapters/",
+    "non_negotiables": "docs/ten-non-negotiables.md",
+    "xon_protocol": "docs/xon-protocol.md",
+    "facilitation": "docs/facilitation/",
+    "metadata_file": "metadata.jsonld"
+  },
+  "ai_integration": {
+    "recommended_chunk_size_chars": 1200,
+    "recommended_chunk_overlap_chars": 150,
+    "recommended_embedding_models": [
+      "text-embedding-3-small",
+      "text-embedding-3-large"
+    ],
+    "semantic_roles": {
+      "principles": "principles",
+      "protocols": "protocols",
+      "templates": "templates",
+      "exercises": "exercises",
+      "rituals": "rituals",
+      "chapter": "chapter"
+    },
+    "provenance_fields": [
+      "author",
+      "created_at",
+      "version",
+      "source_file",
+      "chapter_id"
+    ],
+    "recommended_metadata_fields_per_file": {
+      "title": "Human readable title",
+      "summary": "1-2 sentence summary",
+      "keywords": "list of keywords",
+      "authors": "author list",
+      "version": "semantic version",
+      "source_file": "path in repo"
+    }
+  }
+}
